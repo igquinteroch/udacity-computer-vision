@@ -1,0 +1,25 @@
+# Trained models (large binaries — regenerate by running notebook 2)
+saved_models/*.pt
+saved_models/*.pth
+
+# Dataset (downloaded at runtime from Udacity S3 bucket in notebook 1)
+data/
+/workspace/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
